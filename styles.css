@@ -94,20 +94,34 @@ a {
     margin: 2em;
     color: white;
     box-sizing: border-box;
-    padding: 2em;
+    padding: 2em 5em;
+    font-family: var(--serif);
 }
 
 #hero-left {
     flex-grow: 1;
     align-items: flex-start;
+    width: max(30em);
+    padding: 1em 0em;
+}
+
+#hero-left h1 {
+    /* padding: 0.5em 0em 0em 0em; */
+    font-size: 48px;
+}
+
+#hero-left p {
+    padding: 0.5em 0em;
+    font-size: 24px;
 }
 
 #hero-right {
     /* looks like if i disable flex-grow, hero-right is pushed to right  */
     /* flex-grow: 1;  */
-    justify-content: center;
+    justify-content: flex-end;
+    width: max(30em);
 }
 
 #hero-right img {
-    width: 20em;
+    width: 30em;
 }
