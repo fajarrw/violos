@@ -30,8 +30,10 @@ header {
 
 ul {
     list-style-type: none;
+}
+
+#ul-pad {
     padding: 0.5em;
-    width: 100vw;
 }
 
 a {
@@ -64,5 +66,27 @@ a {
     padding: 0.5em;
     flex-grow: 1;
     text-align: center;
-    margin-right: 2em;
+    margin-right: 1em;
+}
+
+#hero {
+    background-color: #232931;
+    margin: 2em;
+    color: white;
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+#hero-left {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#hero-right {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#hero-right img {
+    width: 20em;
 }
