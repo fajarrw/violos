@@ -42,10 +42,15 @@
     background-color: var(--primary-color);
 }
 
+#main {
+    align-items: center;
+}
+
 header {
     color: white;
     font-family: var(--serif);
     font-size: 16px;
+    align-self: stretch;
 }
 
 ul {
@@ -96,13 +101,16 @@ a {
     box-sizing: border-box;
     padding: 2em 5em;
     font-family: var(--serif);
+    max-width: 80em;
+    justify-content: space-between;
 }
 
 #hero-left {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     align-items: flex-start;
-    width: max(30em);
+    /* width: 2m; */
     padding: 1em 0em;
+    max-width: 30em;
 }
 
 #hero-left h1 {
@@ -118,10 +126,11 @@ a {
 #hero-right {
     /* looks like if i disable flex-grow, hero-right is pushed to right  */
     /* flex-grow: 1;  */
-    justify-content: flex-end;
-    width: max(30em);
+    /* justify-content: flex-end; */
+    /* width: max(30em);
+    max-width: 30em; */
 }
 
 #hero-right img {
-    width: 30em;
+    width: 35em;
 }
