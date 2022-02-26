@@ -3,6 +3,7 @@
 
 :root {
     --primary-color: #232931;
+    --sedondary-color: #F73859;
     --serif: 'Lora';
     --sans: 'Open Sans';
 }
@@ -42,7 +43,16 @@
     background-color: var(--primary-color);
 }
 
+button {
+    background-color: var(--sedondary-color);
+    color: white;
+    border: 0;
+    font-family: var(--serif);
+    padding: 0.5em 1em;
+}
+
 #main {
+
     align-items: center;
 }
 
@@ -79,6 +89,7 @@ a {
     text-align: left;
     margin-left: 2em;
     flex-grow: 10;
+    font-size: 18px;
 }
 
 #a-contact-us{
@@ -103,6 +114,7 @@ a {
     font-family: var(--serif);
     max-width: 80em;
     justify-content: space-between;
+    align-items: center;
 }
 
 #hero-left {
@@ -119,7 +131,7 @@ a {
 }
 
 #hero-left p {
-    padding: 0.5em 0em;
+    padding: 0.5em 0em 1em 0em;
     font-size: 24px;
 }
 
