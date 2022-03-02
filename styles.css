@@ -157,14 +157,6 @@ a {
     font-size: 1.5rem;
 }
 
-/* #hero-right { */
-    /* looks like if i disable flex-grow, hero-right is pushed to right  */
-    /* flex-grow: 1;  */
-    /* justify-content: flex-end; */
-    /* width: max(30rem);
-    max-width: 30rem; */
-/* } */
-
 #hero-right img {
     width: 35rem;
 }
@@ -172,8 +164,6 @@ a {
 #quality {
     max-width: 79rem;
     justify-content: space-between;
-    /* margin: 2rem; */
-    /* box-sizing: border-box; */
     width: 100%;
     align-self: center;
 }
@@ -195,23 +185,12 @@ a {
 .card h3 {
     font-family: var(--serif);
     margin: 0.5rem;
-    /* font-size: 1rem; */
 }
 
 .card p {
     font-family: var(--sans);
     margin: 0.5rem;
-    /* font-size: 1rem; */
 }
-
-/* 
-#first, #third {
-    margin: 2rem 0rem;
-}
-
-#second {
-    
-} */
 
 video {
     align-self: center;
@@ -228,19 +207,10 @@ video {
 }
 
 #contact > h2 {
-    /* font-weight: 600; */
     font-size: 2rem;
     font-family: var(--serif);
     margin: 2rem;
 }
-
-/* #contact > p {
-    font-family: var(--sans);
-    padding: 1.25rem 0rem 2.5rem 0rem;
-    display: flex;
-    justify-content: center;
-    width: 40rem;
-} */
 
 #contact form {
     width: min(80vw, 30rem);
@@ -285,13 +255,9 @@ input:focus {
 }
 
 textarea {
-    /* width: 100%;
-    height: px; */
     padding: 0.5rem;
     box-sizing: border-box;
     border: 0.25rem solid black;
-    /* border-radius: 4px; */
-    /* background-color: #f8f8f8; */
     font-size: 1rem;
     resize: none;
     margin: 1rem 0rem;
@@ -307,16 +273,6 @@ textarea:focus {
     background-color: rgb(236, 236, 236);
 }
 
-/* #contact button {
-    width: 100%;
-    background: var(--secondary-color);
-    border-radius: 10px;
-    padding: 18px 0px;
-    color: white;
-    border: none; /* Removes the default border */
-    /* font-size: 15px;
-} */
-
 #contact button {
     margin: 1rem;
     width: fit-content;
@@ -327,8 +283,6 @@ footer {
     color: var(--primary-color);
     box-sizing: border-box;
     border: 0.5rem solid var(--primary-color);
-    /* width: calc(100vw - 1rem); */
-    /* align-self: stretch; */
 }
 
 #footer-container {
@@ -354,7 +308,6 @@ footer {
 
 #lets-connect {
     font-size: 1.5rem;
-    /* font-weight: 300; */
     padding-bottom: 3rem;
     font-family: var(--sans);
 }
@@ -367,7 +320,6 @@ footer {
 }
 
 .footer-data {
-    /* font-weight: 300; */
     font-size: 1rem;
     font-family: var(--sans);
 }
@@ -380,22 +332,8 @@ footer {
     justify-content: space-between;
     background-color: var(--primary-color);
     color: white;
-    /* width: calc(100vw - 3rem); */
     font-family: var(--serif);
-    /* align-self: stretch; */
 }
-
-/* #footer-logo {
-    width: 450px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-} */
-
-/* #footer-logo-svg {
-    padding: 15px 0px;
-}  */
 
 #copyright a {
     padding: 0rem;
