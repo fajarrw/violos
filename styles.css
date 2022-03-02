@@ -179,6 +179,7 @@ video {
     width: 90%;
     max-width: 720px;
     height: auto;
+    z-index: -1;
 }
 
 #contact {
