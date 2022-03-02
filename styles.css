@@ -190,6 +190,11 @@ a {
     
 } */
 
+video {
+    align-self: center;
+    margin: 2rem;
+}
+
 #contact {
     color: black;
     margin-bottom: 2.5rem;
