@@ -67,8 +67,21 @@ ul {
     list-style-type: none;
 }
 
+/* #img-logo {
+    padding: 0.5rem;
+} */
+
+#header-img {
+    height: 2rem;
+    width: auto;
+    /* display: flex;
+    align-self: center; */
+    margin-left: 2rem;
+}
+
 #ul-pad {
     padding: 0.5rem;
+    align-items: center;
 }
 
 a {
@@ -87,7 +100,6 @@ a {
 #a-logo {
     padding: 0.5rem;
     text-align: left;
-    margin-left: 2rem;
     flex-grow: 10;
     font-size: 18px;
 }
