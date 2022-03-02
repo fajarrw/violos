@@ -352,6 +352,12 @@ footer {
     text-align: center;
 }
 
+@media screen and (min-width: 1600px) {
+    .footer-small{
+        width: 25rem;
+    }
+}
+
 @media screen and (max-width: 800px) {
     #hero-right img {
         width: 100%;
