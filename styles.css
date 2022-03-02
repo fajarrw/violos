@@ -266,6 +266,7 @@ input:focus {
 #contact button {
     margin: 1rem;
     width: fit-content;
+    align-self: center;
 }
 
 footer {
