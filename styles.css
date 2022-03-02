@@ -395,20 +395,21 @@ footer {
     padding: 15px 0px;
 }  */
 
-#footer-logo-a {
-    padding: 0.5rem;
+#copyright a {
+    padding: 0rem;
     font-size: 1rem;
     font-weight: 600;
     color: var(--tertiary-color);
     margin-left: 2rem;
 }
 
-#copyright > p {
+#copyright p {
     width: 28rem;
     font-size: 0.8rem;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -425,12 +426,42 @@ footer {
     }
 }
 
+@media screen and (max-width: 576px) { 
+    #copyright {
+        justify-content: center;
+        padding: 6rem 2rem;
+    }
+
+    #copyright a{
+        padding: 2rem 0rem;
+        margin-left: 0rem;
+    }
+}
+
 @media screen and (max-width: 480px) { 
     #hero {
         margin: 0rem;
     }
 
+    #footer-container {
+        padding: 15%;
+    }
+
     #footer-container div{
         width: fit-content;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    #header-img {
+        margin-left: 1rem;
     }
 }
