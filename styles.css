@@ -320,7 +320,7 @@ footer {
 #copyright {
     display: flex;
     flex-direction: row;
-    padding: 1rem;
+    padding: 0.5rem;
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary-color);
@@ -347,11 +347,12 @@ footer {
     font-size: 1rem;
     font-weight: 600;
     color: var(--tertiary-color);
+    margin-left: 2rem;
 }
 
 #copyright > p {
     width: 28rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: white;
     display: flex;
     justify-content: center;
