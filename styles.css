@@ -136,6 +136,7 @@ a {
     max-width: 90rem;
     justify-content: space-between;
     align-items: center;
+    align-self: center;
 }
 
 #hero-left {
@@ -169,11 +170,12 @@ a {
 }
 
 #quality {
-    max-width: 90em;
+    max-width: 79rem;
     justify-content: space-between;
     /* margin: 2rem; */
     /* box-sizing: border-box; */
     width: 100%;
+    align-self: center;
 }
 
 .card {
