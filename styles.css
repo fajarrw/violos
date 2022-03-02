@@ -48,7 +48,7 @@ button {
     color: white;
     border: 0;
     font-family: var(--serif);
-    padding: 0.5em 1em;
+    padding: 0.5rem 1rem;
 }
 
 #main {
@@ -68,7 +68,7 @@ ul {
 }
 
 #ul-pad {
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 
 a {
@@ -85,34 +85,34 @@ a {
 }
 
 #a-logo {
-    padding: 0.5em;
+    padding: 0.5rem;
     text-align: left;
-    margin-left: 2em;
+    margin-left: 2rem;
     flex-grow: 10;
     font-size: 18px;
 }
 
 #a-contact-us{
-    padding: 0.5em;
+    padding: 0.5rem;
     flex-grow: 1;
     text-align: center;
 }
 
 #a-shop {
-    padding: 0.5em;
+    padding: 0.5rem;
     flex-grow: 1;
     text-align: center;
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 
 #hero {
     background-color: #232931;
-    margin: 2em;
+    margin: 2rem;
     color: white;
     box-sizing: border-box;
-    padding: 2em 5em;
+    padding: 2rem 5rem;
     font-family: var(--serif);
-    max-width: 80em;
+    max-width: 90rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -121,28 +121,58 @@ a {
     /* flex-grow: 1; */
     align-items: flex-start;
     /* width: 2m; */
-    padding: 1em 0em;
-    max-width: 30em;
+    padding: 1rem 0rem;
+    max-width: 30rem;
 }
 
 #hero-left h1 {
-    /* padding: 0.5em 0em 0em 0em; */
-    font-size: 48px;
+    /* padding: 0.5rem 0rem 0rem 0rem; */
+    font-size: 3rem;
 }
 
 #hero-left p {
-    padding: 0.5em 0em 1em 0em;
-    font-size: 24px;
+    padding: 0.5rem 0rem 1rem 0rem;
+    font-size: 2rem;
 }
 
-#hero-right {
+/* #hero-right { */
     /* looks like if i disable flex-grow, hero-right is pushed to right  */
     /* flex-grow: 1;  */
     /* justify-content: flex-end; */
-    /* width: max(30em);
-    max-width: 30em; */
-}
+    /* width: max(30rem);
+    max-width: 30rem; */
+/* } */
 
 #hero-right img {
-    width: 35em;
+    width: 35rem;
 }
+
+#quality {
+    max-width: 79em;
+    justify-content: space-between;
+    /* margin: 2rem; */
+    /* box-sizing: border-box; */
+    width: 100vw;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 20rem;
+    height: 25rem;
+    border: 0.5rem solid var(--primary-color);
+    margin: 2rem 2rem;
+}
+
+.card img {
+    width: 19rem;
+    height: 15rem;
+    object-fit: cover;
+}
+/* 
+#first, #third {
+    margin: 2rem 0rem;
+}
+
+#second {
+    
+} */
