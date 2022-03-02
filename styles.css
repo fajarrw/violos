@@ -415,4 +415,22 @@ footer {
     #hero-right img {
         width: 100%;
     }
+
+    #hero {
+        padding: 2rem 10%;
+    }
+
+    #quality {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    #hero {
+        margin: 0rem;
+    }
+
+    #footer-container div{
+        width: fit-content;
+    }
 }
