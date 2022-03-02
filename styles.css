@@ -60,8 +60,17 @@ header {
     color: white;
     font-family: var(--serif);
     font-size: 1rem;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
     /* align-self: stretch; */
 }
+
+/* #nav-bar {
+    position: sticky; */
+    /* position: -webkit-sticky;  */
+    /* top: 0;
+} */
 
 ul {
     list-style-type: none;
@@ -400,4 +409,10 @@ footer {
     color: white;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    #hero-right img {
+        width: 100%;
+    }
 }
